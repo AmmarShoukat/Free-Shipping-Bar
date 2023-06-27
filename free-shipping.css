@@ -1,0 +1,77 @@
+ .drawer {
+    visibility: hidden;
+  }
+
+  .green {
+  color: #000;
+}
+
+.free-shipping--container {
+  width: 100%;
+}
+
+.free-shipping--rounded {
+  height: 100%;
+  border-radius: 100px 0 0 100px;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.free-shipping--bar {
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  border: solid 0px #a9b4c1;
+  height: 12px;
+  background-color: #d4dcdc;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.free-shipping--progress {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  background-color: #415144;
+  transition: width 1s linear;
+  display:block !important;
+}
+.free-shipping--amounts {
+  padding-top: 10px;
+  display: none;
+  justify-content: space-between;
+}
+.descriptions {
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.descriptions .desc{
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight:500;
+  color:black;
+}
+.free-shipping--number {
+  transition: left 2s linear;
+  color: #ff9800;
+  letter-spacing: 1px;
+  font-size: 19px;
+  font-weight:bold;
+}
+.free-shipping--goal {
+  font-size: 19px;
+  font-weight:bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000;
+}
+
+.free-shipping--status {
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+  th#CartDrawer-ColumnProduct, th#CartDrawer-ColumnTotal {
+    display: none;
+}
